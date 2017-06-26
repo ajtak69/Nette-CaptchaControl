@@ -10,7 +10,7 @@
  * @link      http://www.radekdostal.cz
  */
 
-namespace RadekDostal\NetteComponents;
+namespace ajtak69\NetteComponents;
 
 use Nette;
 use Nette\Forms\Container;
@@ -26,6 +26,7 @@ use Nette\Utils\Image;
 /**
  * Generates image with text as label for text input
  *
+ * @author Miroslav Přenosil
  * @author Radek Dostál
  * @author Pavel Máca
  */
@@ -638,11 +639,11 @@ class CaptchaControl extends TextBase
   /**
    * Gets validator
    *
-   * @return Nette\Callback
+   * @return array
    */
   public function getValidator()
   {
-    return callback($this, 'validateCaptcha');
+    return [$this, 'validateCaptcha'];
   }
 
   /**
