@@ -1,13 +1,15 @@
 # CaptchaControl for Nette Framework
 
-Captcha Control for Nette Framework
+Captcha Control for Nette Framework (Added support for PHP 7.1 & Nette 2.4)
 
+- Author: Miroslav Přenosil &lt;prenosilmiroslav@gmail.com&gt;
+- Copyright: Copyright (c) 2017 [Miroslav Přenosil]
 - Author: Radek Dostál &lt;radek.dostal@gmail.com&gt;
 - Copyright: Copyright (c) 2016 [Radek Dostál](http://www.radekdostal.cz)
 - Author: Pavel Máca
 - Copyright: Copyright (c) 2010 [Pavel Máca](http://www.inseo.cz)
 - Licence: [MIT License](https://opensource.org/licenses/mit-license.php)
-- GitHub: [http://github.com/radekdostal/Nette-CaptchaControl](http://github.com/radekdostal/Nette-CaptchaControl)
+- GitHub: [http://github.com/ajtak69/Nette-CaptchaControl](http://github.com/ajtak69/Nette-CaptchaControl-PHP7)
 
 ## Requirements
 
@@ -21,7 +23,7 @@ Captcha Control for Nette Framework
 Registration to bootstrap.php file.
 
 ```php
-RadekDostal\NetteComponents\CaptchaControl::register($container->getByType('Nette\Http\Session'));
+ajtak69\NetteComponents\CaptchaControl::register($container->getByType('Nette\Http\Session'));
 ```
 
 ### Usage
