@@ -1,9 +1,13 @@
 {
-  "name": "radekdostal/nette-captchacontrol",
-  "description": "Captcha Control for Nette Framework",
-  "version": "1.0.0",
+  "name": "ajtak69/nette-captchacontrol-php7",
+  "description": "Captcha Control for Nette Framework (Support for PHP 7.1 & Nette 2.4)",
+  "version": "1.0.1",
   "type": "library",
   "authors": [
+    {
+      "name": "Miroslav Přenosil",
+      "email": "prenosilmiroslav@gmail.com"
+    },
     {
       "name": "Radek Dostál",
       "email": "radek.dostal@gmail.com"
